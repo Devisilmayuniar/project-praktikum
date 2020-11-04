@@ -1,5 +1,4 @@
-print("Tugas Ini Untuk Melengkapi Pertemuan 6")
-print("Dan membuat Penjelasan Setiap Lab")
+
  
  # string format 1
 print(0, 10**0)

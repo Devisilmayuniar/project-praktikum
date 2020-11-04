@@ -13,7 +13,7 @@
 ### Pertemuan 5 - Latihan
 
 Pada pertemuan 5 bahasa pemograman, saya diberi soal untuk latihan oleh Dosen untuk membuat Aplikasi Biodata dengan python Seperti gambar dibawah <br>
-![latihan pertemuan 5](praktikum/latihan5.png)
+![latihan pertemuan 5](penjelasan%201/latihan5.png)
 Saat ini saya akan menjelaskan hasil dari tugas tersebut. <br>
 Berikut *source code* nya atau klik berikut ([latihan 5](tugas5.py)): <br>
 
@@ -53,7 +53,7 @@ source code fiatas berfungsi untuk mencetak hasil / output berupa " **please ent
  print(1801)
 ```
 <br>(Seperti gambar berikut ini <br>)
-![Output fungsi print](praktikum/namaot.png) <br>
+![Output fungsi print](penjelasan%201/input.png) <br>
 * Untuk source code berikutnya adalah inputan atau membuat variable. Seperti syntax dibawah ini:
 
 ``` python
@@ -63,7 +63,7 @@ Keterangan : <br>
 1. Variable adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah **fullname** . <br>
 
 2. Fungsi **input()** adalah untuk memasukan nilai dar layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)* <br>
-![input](praktikum/hslnma.png) <br>
+![input](penjelasan%201/output.png) <br>
 Pada gambar diatas, hasil dari inputan tersebut berwarna *putih* <br>
 * Untuk memasukan printah lain seperti *Nickname, NPM, Place of bircth, Date of bircth, Year of bircth, Phone number, and address* mengikuti perintah yang sama seperti memasukan *fullname* <br>
 
@@ -83,7 +83,7 @@ Keterangan :
 2. Fungsi print() seperti dijelaskan pada point **Output** diatas
 Hasil source code diatas adalah seperti gambar dibawah ini : <br>
 
-![Output salam](praktikum/nma3.png)
+![Output salam](penjelasan%201/salam.png)
 * Langkah terakhir menampilkan semua hasil dari inputan diatas. Dengan mengetikan source code berikut : <br>
 ``` python
 print(f"Let me introduce my self. My name is {fullname}, but you can call me {nickname}. My NPM {npm}. I was born in {pob} and Iam {dob} years old. I am very glad if you want to invite my house in {address}. So don't forget to call me before with the number {phone}. \n Thank You ")
@@ -92,7 +92,7 @@ Keterangan : <br>
 * Fungsi huruf **f** pada perintah *print(f"....")* adalah fungsi print atau bisa memudahkan program dalam mencetak statement dalam suatu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan symbol koma ( , ) atau plus ( + ) <br>
 * Sedangkan fungsi {} pada output tersebut menampilkan hasil variable <br>
 Hasil dari output tersebut seperti berikut : <br>
-![alloutput](praktikum/alloutput.png)
+![alloutput](penjelasan%201/alloutput.png)
 <br>
 <br>
 <br>
@@ -100,7 +100,7 @@ Hasil dari output tersebut seperti berikut : <br>
 ### Pertemuan 6 - lab 1
 
 Pada halaman ini (Tugas pertemuan 6 - lab 1) Saya di berikan tugas oleh Dosen yaitu mempelajari Operator Aritmatika menggunakan bahasa pemograman python. Berikut source yang di berikan oleh Dosen [source lab 1](lab1.py)
-![Pertemmuan 6 - lab 1](praktikum/lab1.png)
+![Pertemmuan 6 - lab 1](penjelasan%201/lab1.png)
 ``` python
 #Penggunaan End
 print("A", end="")
@@ -142,7 +142,7 @@ print("Y")
 print("Z")
 ```
 Hasil dari source code terseut seperti gambar di bawah ini: 
-![Output END](praktikum/abcd.png)
+![Output END](penjelasan%201/yx.png)
 
 * Pengertian separaktor
 Sepaktor adalah pemisah yang berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda sepasi <br><br>
@@ -173,7 +173,7 @@ print(w,x,y,z,sep="-----")
 ```
 
 Hasil dari syntax / source code diatas adalah seperti berikut iniL: <br>
-![Output Separator](praktikum/10.png)
+![Output Separator](penjelasan%201/gf.png)
 <br>
 <br>
 <br>
@@ -182,7 +182,7 @@ Hasil dari syntax / source code diatas adalah seperti berikut iniL: <br>
 String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
 
 Penggunaan pada source yang di berikan Dosen sebagai berikut : <br>
-![Lab 1-2](praktikum/lab1-2.png) <br> 
+![Lab 1-2](penjelasan%201/lab1-2.png) <br> 
 ``` python
 # string format 1
 print(0, 10 ** 0)
@@ -218,7 +218,7 @@ Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, 
 Dengan ketentuan sebagau berikut, oprasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [Bintang dua]) <br>
 Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10. Dengan output sebagai berikut : <br>
 
-![Operasi Aritmatika pangkat **](praktikum/pangkat.png)<br><br>
+![Operasi Aritmatika pangkat **](penjelasan%201/pangkat.png)<br><br>
 
 2. **String Format 2**<br><br>
 Pada syntax / source code string format 2 akan menampilkan output berupa 2 output'an juga (Seoerti string format 1, yaitu kanan dan kiri) <br>
@@ -230,18 +230,18 @@ print('{0:8} | {1:9}'.format('dalas', 3.))
 print('{0:8} | {1:9}'.format('NB',10))
 ```
 Hasil dari source code contoh di atas akan seperti berikut : <br>
-![OutPut Aligmnent contoh](praktikum/nb.png)<br><br>
+![OutPut Aligmnent contoh](penjelasan%201/wee.png)<br><br>
 > Secara default, **.format()** menggunakan rata text kiri, angka ke kanan. <,^, atau > untuk perataan kiri, tengah , atau kanan. Contoh lain dari penggunaan **.format()** sebagai berikut : <br>
 ``` python
 print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
 print('{:<30}{:^30}{:>30}'.format(12,34,56))
 ```
 Hasil dari source code contohdiatas akan muncul seperti ini : <br>
-![Output Alignment](praktikum/rata.png)
+![Output Alignment](penjelasan%201/hasil.png)
 <br>
 <br>
 Hasil string format 2 adalah : <br>
-![Output Alignment contoh 2](praktikum/ratakanan.png)
+![Output Alignment contoh 2](penjelasan%201/kanan.png)
 <br>
 <br>
 
@@ -267,10 +267,10 @@ print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 Hasil dari source / code diatas : <br>
 
 
-![Output source diatas](praktikum/code.png)
+![Output source diatas](penjelasan%201/lab2.png)
 <br>
 <br>
 
 ### ================= TAHNKS ================= <br>
-### ABDUL AZIZ ANAOVAL / 312010049 / TI.20.A.1 <br>
-### =================☕☕☕=================<br>
+### Devi Silma yuniar / 312010458 / TI.20.A.1 <br>
+### ==================================<br>
